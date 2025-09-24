@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, User, Database } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -23,6 +23,11 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               My long-term goal is to grow into a full-stack developer, so I’m actively learning back-end 
               technologies and exploring how front-end and server-side systems work together to create complete, scalable applications.
+            </p>
+
+            <p className="text-muted-foreground">
+              I’m also exploring other career paths, such as data analysis, to broaden my 
+              understanding of how technology can solve real-world problems.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -72,17 +77,17 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                  <Database className="h-6 w-6 text-primary" />
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Data & Problem-Solving</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Exploring data analysis and other technology fields to expand my skill set and 
+                    discover new ways to solve real-world challenges."
                   </p>
                 </div>
-              </div>
+              </div>  
             </div>
           </div>
         </div>
