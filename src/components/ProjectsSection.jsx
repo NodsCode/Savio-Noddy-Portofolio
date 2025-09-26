@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Track It- Your Productivity Companion",
+    description: "A sleek habit tracker built with React, TypeScript, Tailwind, and JSON for data storage.",
+    image: "/projects/Trackit.png",
+    tags: ["TypeScript", "CSS","javascript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/NodsCode/Track-It",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Cerdikia - AI Youtube Video Helper",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "An AI-powered video finder built with HTML and OpenAI API.",
+    image: "/projects/Cerdikia.png",
+    tags: ["Node.js", "JavaScript", "CSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/NodsCode/Cerdikia",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Cateringz - Order Your Food Online",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "An easy-to-use catering web app using HTML, CSS, and Java.",
+    image: "/projects/Cateringz.png",
+    tags: ["HTML", "CSS", "Java"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/NodsCode/Cateringz",
   },
 ];
 
