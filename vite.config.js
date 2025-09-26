@@ -6,7 +6,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   // 👇 This is the key change for GitHub Pages
-  base: "/Savio-Noddy-s-Portofolio/",
+  base: "/Savio-Noddy-Portofolio/",
 
   plugins: [react(), tailwindcss()],
   resolve: {

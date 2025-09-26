@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage": "https://NodsCode.github.io/Savio-Noddy-s-Portofolio",
+  "homepage": "https://NodsCode.github.io/Savio-Noddy-Portofolio",
 
   "scripts": {
     "dev": "vite",
